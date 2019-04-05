@@ -1,5 +1,5 @@
 {
-  "name": "untitled",
+  "name": "banksy-line-bot",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -28,6 +28,7 @@
     "lodash": "^4.17.11",
     "method-override": "^2.3.10",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
     "mongodb": "^3.1.13",
     "mongoose": "5.4.7",
     "morgan": "~1.9.0",

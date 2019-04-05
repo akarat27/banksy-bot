@@ -92,8 +92,7 @@ function buildReceipt(order) {
  */
 
 function webhook(req,res){
-
-    console.log(req.body.events[0])
+    //console.log(req.body.events[0])
     if(req.body.events[0].type == 'join'){
         //send reply message to let member setting siteId
         //line_replyMessage(req.body.events[0].replyToken ,{ type: 'flex',altText:'Group Join', contents: joinmessage });
@@ -103,9 +102,6 @@ function webhook(req,res){
     }else if(req.body.events[0].type == 'message'){
         if( req.body.events[0].message.type == 'text') {
             replyToken = req.body.events[0].replyToken
-            groupId = req.body.events[0].source.groupId
-            groupObj = setGroupObj(req);
-
             msgText = req.body.events[0].message.text
 
             if(checkPrefix('^(@tfex)')) {

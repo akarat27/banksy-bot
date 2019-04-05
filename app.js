@@ -12,7 +12,7 @@ var config = require('./config/config')
 const httpStatus = require('http-status');
 const APIError = require('./routes/helpers/APIError');
 //var swaggerUi = require('swagger-ui-express'), swaggerDocument = require('./swagger.json');
-var moment = require('moment')
+var moment = require('moment-timezone')
 const expressWinston = require('express-winston');
 const winstonInstance = require('winston');
 
