@@ -21,7 +21,7 @@ function loadSTD(tf,replyToken){
     var day = [];
     var week = [];
     puppeteer
-        .launch()
+        .launch({args: ['--no-sandbox', '--disable-setuid-sandbox']})
         .then(function(browser) {
             return browser.newPage();
         })
