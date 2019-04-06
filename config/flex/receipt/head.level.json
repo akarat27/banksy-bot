@@ -8,14 +8,14 @@
       "type": "text",
       "text": " ",
       "size": "sm",
-      "color": "#595959",
+      "color": "#555555",
       "flex": 0
     },
     {
       "type": "text",
       "text": " ",
       "size": "sm",
-      "color": "#595959",
+      "color": "#111111",
       "align": "center"
     }
   ]

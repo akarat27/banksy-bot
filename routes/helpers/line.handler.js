@@ -87,17 +87,22 @@ function handlePreErr(err, req, res, next) {
 }*/
 function line_replyMessage(token ,contentMessage){
     client.replyMessage(token,contentMessage)
+        .then(result => {
+            console.log(result)
+        })
         .catch((err) => {
             if (err instanceof HTTPError) {
                 logger.error(err.statusCode);
             }});
 }
 
-function line_pushMessage(orderSaved,token ,contentMessage){
+function line_pushMessage(token ,contentMessage){
     client.pushMessage(token,contentMessage)
-        .then( () => {
+        .then( (result) => {
+            console.log(result)
         })
         .catch((err) => {
+            console.log(err)
             if (err instanceof HTTPError) {
                 logger.error(err.statusCode);
             }

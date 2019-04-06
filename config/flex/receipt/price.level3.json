@@ -7,16 +7,16 @@
     {
       "type": "text",
       "text": " ",
-      "size": "sm",
-      "color": "#595959",
+      "size": "xs",
+      "color": "#555555",
       "flex": 0
     },
     {
       "type": "text",
       "text": " ",
-      "size": "sm",
-      "color": "#595959",
-      "align": "center"
+      "size": "xs",
+      "color": "#111111",
+      "align": "end"
     }
   ]
 }

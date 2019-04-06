@@ -7,15 +7,15 @@
     {
       "type": "text",
       "text": " ",
-      "size": "sm",
-      "color": "#595959",
+      "size": "xxs",
+      "color": "#83afaf",
       "flex": 0
     },
     {
       "type": "text",
       "text": " ",
-      "size": "sm",
-      "color": "#595959",
+      "size": "xxs",
+      "color": "#83afaf",
       "align": "center"
     }
   ]
